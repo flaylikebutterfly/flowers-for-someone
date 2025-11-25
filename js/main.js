@@ -3,7 +3,7 @@ onload = () => {
   const c = setTimeout(() => {
     document.body.classList.remove("not-loaded");
 
-    const titles = ('HAPPY TEACHER DAY!! I LOVE U ^_^').split('')
+    const titles = ('HAPPY TEACHER DAY🤍🤍!! I LOVE U 🫶🏻').split('')
     const titleElement = document.getElementById('title');
     let index = 0;
 
