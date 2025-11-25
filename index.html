@@ -7,12 +7,11 @@ document.addEventListener("click", function() {
     const audio = document.getElementById("bgm");
     audio.play();
 
-    // simpan posisi audio setiap detik
     setInterval(() => {
         localStorage.setItem("musicTime", audio.currentTime);
     }, 500);
 });
-      </script>
+</script>
 
 <html lang="en">
 
